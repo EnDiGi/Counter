@@ -1,0 +1,47 @@
+body {
+    font-family: 'verdana';
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgb(99, 160, 240);
+    border-color: rgb(99, 160, 240);
+    border-radius: 6px;
+    width: 110px;
+    font-size: 20px;
+    color: white;    
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.counter { 
+    font-family: "arial";
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.btns {
+    text-align: center;
+}
+
+#changeThings {
+    text-align: center;
+}
+
+.numInput {
+    padding: 3px 6px;
+    font-size: 20px;
+    background-color: rgb(212, 212, 236);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color:rgb(212, 212, 236)
+}
+
+.both {
+    width: 160px;
+}
