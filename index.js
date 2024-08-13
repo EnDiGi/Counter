@@ -27,22 +27,22 @@ change = function(count, number){
 }
 
 incrBtn1.onclick = function(){
-    added1 = Math.round(parseFloat(input1.value) * 100) / 100;
+    added1 = Math.round(eval(input1.value) * 100) / 100;
     count1 += added1;
     count1 = Math.round(count1 * 100) / 100;
     change(counter1, count1);
 }
 
 incrBtn2.onclick = function(){
-    added2 = Math.round(parseFloat(input2.value) * 100) / 100;
+    added2 = Math.round(eval(input2.value) * 100) / 100;
     count2 += added2;
     count2 = Math.round(count2 * 100) / 100;
     change(counter2, count2);
 }
 
 incrBtnBoth.onclick = function(){
-    added1 = Math.round(parseFloat(input1.value) * 100) / 100;
-    added2 = Math.round(parseFloat(input2.value) * 100) / 100;
+    added1 = Math.round(eval(input1.value) * 100) / 100;
+    added2 = Math.round(eval(input2.value) * 100) / 100;
     count1 += added1;
     count2 += added2;
     count1 = Math.round(count1 * 100) / 100;
@@ -52,22 +52,22 @@ incrBtnBoth.onclick = function(){
 }
 
 decrBtn1.onclick = function(){
-    added1 = Math.round(parseFloat(input1.value) * 100) / 100;
+    added1 = Math.round(eval(input1.value) * 100) / 100;
     count1 -= added1;
     count1 = Math.round(count1 * 100) / 100;
     change(counter1, count1);
 }
 
 decrBtn2.onclick = function(){
-    added2 = Math.round(parseFloat(input2.value) * 100) / 100;
+    added2 = Math.round(eval(input2.value) * 100) / 100;
     count2 -= added2;
     count2 = Math.round(count2 * 100) / 100;
     change(counter2, count2);
 }
 
 decrBtnBoth.onclick = function(){
-    added1 = Math.round(parseFloat(input1.value) * 100) / 100;
-    added2 = Math.round(parseFloat(input2.value) * 100) / 100;
+    added1 = Math.round(eval(input1.value) * 100) / 100;
+    added2 = Math.round(eval(input2.value) * 100) / 100;
     count1 -= added1;
     count2 -= added2;
     count1 = Math.round(count1 * 100) / 100;
